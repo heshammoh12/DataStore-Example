@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "com.raya.datastoreexample";
+option java_multiple_files = true;
+
+message UserDataPref {
+  string userName = 1;
+  string age = 2;
+}
+
+
+
+message UserTwoData {
+  string userName = 1;
+  int32 age = 2;
+}
